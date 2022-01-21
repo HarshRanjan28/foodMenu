@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  min-height: 25vh;
+  letter-spacing: 0.2em;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.filter-btn {
+  padding: 0.5em;
+  margin: 1em;
+  margin-top: 0;
+  border-radius: 5px;
+  width: 90px;
+  border: 2px solid rgb(207, 152, 48);
+  color: rgb(207, 152, 48);
+  font-family: "Roboto", sans-serif;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.filter-btn:hover {
+  background: rgb(207, 152, 48);
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.section-center {
+  width: 30vh;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 2rem;
+  justify-items: center;
+  margin-top: 60px;
+}
+.section-center img {
+  min-width: 233px;
+  height: 150px;
+  margin-left: 190px;
+  border: 5px solid#c59d5f;
+  border-radius: 8px;
+}
+.menu-item {
+  display: grid;
+  grid-template-columns: 225px 1fr;
+  gap: 0 1.25rem;
+  max-width: 40rem;
+}
+
+.item-info {
+  height: 25px;
+  width: 300px;
+  margin-left: 230px;
+}
+
+.item-info h4 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2em;
+}
+.item-text {
+  color: hsl(210, 22%, 49%);
+}
+.price {
+  color: #c59d5f;
+}
